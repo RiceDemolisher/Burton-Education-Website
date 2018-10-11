@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css1.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<div id="wrapper">
+<body>
+
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+  div.form-group{
+      width:340px;
+      padding: 10px;
+      /*float: right;*/
+  }
+    input{
+        float: right;
+        width: 130px;
+    }
+    button{
+        float: right;
+        width: 130px;
+    }
+    select{
+        float: right;
+    }
+    /*textarea{*/
+        /*float: right;*/
+    /*}*/
+</style>
+
+<form action="https://www.savatarian.com/html5/form.php" method="post">
+    <div class="grid-container">
+
+
+
+    <div class="form-group">
+        <label for="voornaam">Voornaam</label>
+        <input type="text" name="Voorname" id="Voornaam">
+    </div>
+
+
+
+    <div class="form-group">
+        <input type="checkbox" name="Eten" value="Sperciebonen" id="Eten">
+     </div>
+
+
+
+    <div class="form-group">
+        <label for="tussenvoegsel">Tussenvoegsel</label>
+        <input type="text" name="Tussenvoegsel" id="Tussenvoegsel">
+    </div>
+
+    <div class="form-group">
+        <input type="checkbox" name="Eten" value="Aardappelen" id="Eten">
+    </div>
+
+
+
+    <div class="form-group">
+        <label for="achternaam">Achternaam</label>
+        <input type="text" name="Achternaam" id="Achternaam">
+    </div>
+
+
+
+    <div class="form-group">
+        <input type="checkbox" name="Eten" value="Hamburger" id="Eteb">
+    </div>
+
+
+
+
+    <div class="form-group">
+         <input type="radio" value="Man" name="Geslacht">
+         <label>Geslacht<input type="radio" value="Vrouw" name="Geslacht" id="Geslacht"></label>
+    </div>
+
+<div></div>
+    <div class="form-group">
+          <label>Kleurogen<select name="Oogkleuren" id="Oogkleuren"></label>
+          <option value="Groen">Groen</option>
+          <option value="Bruin">Bruin</option>
+          <option value="Blauw">Blauw</option>
+          <option value="Meerdere">Meerdere</option>
+          </select>
+    </div>
+
+        <div></div>
+
+    <div class="form-group">
+        Geboortedatum
+        <input type="date" name="Geboortedatum" max="2020-12-31">
+    </div>
+
+
+
+    <div id="locator">
+        <article>Man</article>
+    </div>
+
+
+
+    <div id="locator1">
+        <article>Vrouw</article>
+    </div>
+
+<div></div>
+
+    <div class="form-group">
+        <label for="text">Omschrijving</label>
+        <textarea name="Text" id="Text" rows="8" cols="45">
+    </textarea>
+    </div>
+
+    <div></div>
+
+        <div id="locator2">
+            <article>Lekker eten</article>
+        </div>
+        <div id="locator3">
+            <article>Sperciebonen</article>
+        </div>
+        <div id="locator4">
+            <article>Aardappelen</article>
+        </div>
+        <div id="locator5">
+            <article>Hamburger</article>
+        </div>
+
+        <div></div>
+
+        <div>
+            <input type="Submit" name="Optie">
+            <button type="button">Annuleer</button>
+        </div>
+
+    </div>
+
+
+
+
+    <!--<div class="grid-container">-->
+        <!--<input type="checkbox" name="vehicle1" value="Sperciebonen">Sperciebonen-->
+    <!--</div>-->
+
+
+</form>
+</div>
+</body>
+</html>
